@@ -21,6 +21,11 @@ margin: 0;
 img {
     display: block;
 }
+
+
+/* ===========  HEADER  =========== */
+
+
 .main-header {
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -95,6 +100,11 @@ img {
 .mail:focus{
     color: #404bbf;
 }
+
+
+/* ===========  Section 1 ========== */
+
+
 .section-business{
     background-color: #2e2f42;
     padding: 188px 0;
@@ -146,6 +156,11 @@ img {
 .button{
     cursor: pointer;
 }
+
+
+/* ===========  Section 2 ========== */
+
+
 .section-advantages{
     padding: 120px 0;
 }
@@ -182,6 +197,11 @@ margin-bottom: 8px;
 .point-list-advantages{
     width:calc((100% - 72px) / 4);
 }
+
+
+/* ===========  Section 3 ========== */
+
+
 .section-our-team{
     background-color: #F4F4FD;
     padding: 120px 0;
@@ -258,6 +278,10 @@ background-color: #404bbf;
     text-align: center;
     margin-bottom: 8px;
 }
+
+/* ===========  Section 4 ========== */
+
+
 .our-portfolio{
     padding-top: 120px;
     padding-bottom: 120px;
@@ -331,6 +355,11 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     color: #434455;
     transform: translateY(0%);
 }
+
+
+/* ===========  FOOTER ========== */
+
+
 .footer{
     background-color:#2e2f42;
     padding: 100px 0;
@@ -489,6 +518,11 @@ input::placeholder {
     margin-left: 16px;
 
 }
+
+
+/* ===========  MODEL WINDOW ========== */
+
+
 .model-window-container{
     position: fixed;
     top: 0;
