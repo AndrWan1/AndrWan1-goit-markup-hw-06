@@ -248,6 +248,102 @@ font-family: "Raleway", sans-serif;
     text-align: center;
     margin-bottom: 8px;
 }
+
+/* =============  SECTION 4   ============== */
+
+.our-portfolio {
+    padding: 96px 0;
+    text-align: center; 
+}
+
+.our-portfolio-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    margin-bottom: 72px;
+}
+
+.our-portfolio-list {
+    text-align: left;
+    width: 288px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin: 0;
+    padding-left: 0;
+}
+
+.our-portfolio-list-point {
+    width:auto;
+    height: auto;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.img-box {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.text-box-img {
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.our-portfolio-list-point:hover .text-box-img {
+    transform: translateY(0%);
+
+}
+
+.our-portfolio-list-point:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.application-name {
+  
+    width: auto;
+    padding: 32px 16px;
+    border: 1px solid #F4F4FD;
+    background: #FFF;
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.banking-app {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px
+}
+
+.text-app {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    transform: translateY(0%);
+}
+
+
+
 }
 
 /* ------------mobile style  -----------*/
