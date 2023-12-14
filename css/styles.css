@@ -263,7 +263,7 @@ img {
 .our-portfolio {
     padding: 96px 0;
     text-align: center;
-    height: 3077px;
+    height: 3077px
 }
 
 .our-portfolio-title {
@@ -360,6 +360,8 @@ img {
     background-color: #2e2f42;
     width: 320px;
     height: 664px;
+    margin: auto;
+    padding: 96px 0;
 }
 
 .footer-logo {
@@ -371,7 +373,9 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     display: inline-block;
-    margin-bottom: 16px;
+    margin-bottom: 18px;
+    margin-left: 87px;
+    margin-right: 87px;
 
 }
 
@@ -380,7 +384,7 @@ img {
 }
 
 .social-box {
-    margin-right: 120px;
+ margin-bottom: 72px;
 }
 
 .footer-text {
@@ -388,6 +392,7 @@ img {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
+    margin-bottom: 72px;
 }
 
 .footer-social-text {
@@ -397,11 +402,13 @@ img {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+    text-align: center;
 
 }
 
 .footer-social-list {
     display: flex;
+    justify-content: center;
     gap: 16px;
 
 }
@@ -442,7 +449,13 @@ img {
 }
 
 .footer-logo-box {
-    margin-right: 120px
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+    width: 288px;
+    height: 110px;
+    margin-bottom: 72px;
 }
 
 .footer-text-form {
@@ -452,10 +465,12 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .footer-form {
     display: flex;
+    flex-direction: column;
     gap: 24px;
 }
 
@@ -464,7 +479,7 @@ img {
 }
 
 .footer-form-email {
-    width: 264px;
+    width: 288px;
     height: 40px;
     border: 1px solid #ffffff;
     background-color: transparent;
@@ -472,10 +487,11 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     padding-left: 16px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #ffffff;
 }
+
 
 input::placeholder {
     color: color #ffffff;
@@ -483,7 +499,7 @@ input::placeholder {
 }
 
 .footer-form-btn {
-    min-width: 165px;
+    width: 165px;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -498,6 +514,8 @@ input::placeholder {
     background-color: #4D5AE5;
     border-radius: 4px;
     border: none;
+    margin-left: 77px;
+    margin-right: 77px;
 }
 
 .footer-form-icon {
