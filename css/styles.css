@@ -262,7 +262,8 @@ img {
 
 .our-portfolio {
     padding: 96px 0;
-    text-align: center; 
+    text-align: center;
+    height: 3077px;
 }
 
 .our-portfolio-title {
@@ -358,7 +359,7 @@ img {
 .footer {
     background-color: #2e2f42;
     width: 320px;
-        height: 664px;
+    height: 664px;
 }
 
 .footer-logo {
@@ -437,6 +438,7 @@ img {
 
 .footer-container {
     display: flex;
+    flex-direction: column;
 }
 
 .footer-logo-box {
