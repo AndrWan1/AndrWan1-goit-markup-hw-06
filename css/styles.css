@@ -527,7 +527,7 @@ input::placeholder {
 /* ------------mobile style  -----------*/
 
 /* ------------tablet style  -----------*/
-@media screen and (min-width:768px) {
+@media screen and (min-width:768px) and (max-width:1157px) {
     .container {
         max-width: 768px;
            padding-left: 16px;
@@ -672,7 +672,7 @@ input::placeholder {
     .mail:focus {
         color: #404bbf;
     }
-
+/* ================== SECTION 1================ */
     .section-business {
         background-color: #2e2f42;
         padding: 112px 0;
@@ -730,9 +730,13 @@ input::placeholder {
     .button {
         cursor: pointer;
     }
-
+/* =================  SECTION 2  ================= */
     .section-advantages {
         padding: 120px 0;
+        
+    }
+    .svg-icon{
+        display: none;
     }
 
     .title-advantages {
@@ -746,14 +750,8 @@ input::placeholder {
     }
 
     .div-icon {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 112px;
-        background-color: #f4f4fd;
-        border-radius: 4px;
-        margin-bottom: 8px;
-
+        display: none;
+    
     }
 
     .text-advantages {
@@ -764,7 +762,8 @@ input::placeholder {
 
     .list-advantages {
         display: flex;
-        gap: 24px;
+        flex-wrap: wrap;
+        gap: 72px 24px;
         margin: 0;
         padding-left: 0;
     }
