@@ -741,7 +741,7 @@ input::placeholder {
 
     .title-advantages {
         font-weight: 500;
-        font-size: 20px;
+        font-size: 36px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
@@ -761,16 +761,21 @@ input::placeholder {
     }
 
     .list-advantages {
+        
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
         gap: 72px 24px;
         margin: 0;
         padding-left: 0;
     }
 
     .point-list-advantages {
-        width: calc((100% - 72px) / 4);
-    }
+        width: 356px; 
+        height: 120px;
+    }  
+
+/* =================  SECTION 3  ================= */
 
     .section-our-team {
         background-color: #F4F4FD;
@@ -789,6 +794,8 @@ input::placeholder {
 
     .list-our-team {
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 24px;
         margin: 0;
         padding-left: 0;
@@ -796,7 +803,7 @@ input::placeholder {
 
     .list-mark {
         background-color: #FFFFFF;
-        width: calc((100% - 72px) / 4);
+        
         border-radius: 0px 0px 4px 4px;
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
             0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -861,6 +868,10 @@ input::placeholder {
         margin-bottom: 8px;
     }
 
+
+/* =================  SECTION 4  ================= */
+
+
     .our-portfolio {
         padding-top: 120px;
         padding-bottom: 120px;
@@ -882,14 +893,15 @@ input::placeholder {
     .our-portfolio-list {
         display: flex;
         flex-wrap: wrap;
-        column-gap: 24px;
-        row-gap: 48px;
+        justify-content: space-between;
+        
+        row-gap: 72px;
         margin: 0;
         padding-left: 0;
     }
 
     .our-portfolio-list-point {
-        width: calc((100% - 48px) / 3);
+        
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
@@ -945,9 +957,15 @@ input::placeholder {
         transform: translateY(0%);
     }
 
+    /* =================  FOOTER  ================= */
+
     .footer {
         background-color: #2e2f42;
-        padding: 100px 0;
+        padding-top: 97px;
+        padding-bottom: 97px;
+        padding-left: 108px;
+        padding-right: 164px;
+        
     }
 
     .footer-logo {
@@ -1026,10 +1044,15 @@ input::placeholder {
 
     .footer-container {
         display: flex;
+        flex-wrap: wrap;
+        margin-left: 92px;
+        
     }
 
     .footer-logo-box {
-        margin-right: 120px
+        margin-right: 24px;
+        
+        margin-bottom: 72px;
     }
 
     .footer-text-form {
@@ -1804,6 +1827,7 @@ a {
 
     .footer-container {
         display: flex;
+        
     }
 
     .footer-logo-box {
