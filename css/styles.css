@@ -1,19 +1,16 @@
 a {
     text-decoration: none;
 }
-
 ul, ol {
     list-style: none;
     padding-left: 0;
     margin: 0;
 }
-
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
-
 h1,
 h2,
 h3,
@@ -21,11 +18,9 @@ h4,
 p {
     margin: 0;
 }
-
 img {
     display: block;
 }
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -38,6 +33,8 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+
 /* ------------mobile style  -----------*/
 /* =============   HEADER   ============== */
 @media screen and (max-width:767px) {
@@ -82,6 +79,7 @@ img {
     justify-content: space-between;
 }
 /* =============  SECTION 1   ============== */
+
 .section-business {
     padding: 72px 0px;
     background-color: #2e2f42;
@@ -144,19 +142,16 @@ img {
 .svg-icon {
     display: none;
 }
-
 .section-advantages {
     padding: 96px 0px;
     text-align: center;
     
 }
-
 .list-advantages {
     display: flex;
     flex-direction: column;
     gap: 72px;
 }
-
 .title-advantages {
     font-weight: 700;
     font-size: 36px;
@@ -265,7 +260,6 @@ img {
     text-align: center;
     height: 3077px
 }
-
 .our-portfolio-title {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
@@ -277,7 +271,6 @@ img {
     letter-spacing: 0.02em;
     margin-bottom: 72px;
 }
-
 .our-portfolio-list {
     text-align: left;
     width: 288px;
@@ -288,19 +281,16 @@ img {
     margin: 0;
     padding-left: 0;
 }
-
 .our-portfolio-list-point {
     width:auto;
     height: auto;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .img-box {
     position: relative;
     overflow: hidden;
 
 }
-
 .text-box-img {
     position: absolute;
     top: 0;
@@ -315,16 +305,13 @@ img {
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .our-portfolio-list-point:hover .text-box-img {
     transform: translateY(0%);
 
 }
-
 .our-portfolio-list-point:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
 .application-name {
   
     width: auto;
@@ -333,7 +320,6 @@ img {
     background: #FFF;
     box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-
 .banking-app {
     font-weight: 500;
     font-size: 20px;
@@ -342,7 +328,6 @@ img {
     color: #2e2f42;
     margin-bottom: 8px
 }
-
 .text-app {
     font-size: 16px;
     font-weight: 400;
@@ -363,7 +348,6 @@ img {
     margin: auto;
     padding: 96px 0;
 }
-
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -378,15 +362,12 @@ img {
     margin-right: 87px;
 
 }
-
 .span-footer-logo {
     color: #f4f4fd;
 }
-
 .social-box {
  margin-bottom: 72px;
 }
-
 .footer-text {
     line-height: 1.5;
     color: #F4F4FD;
@@ -394,7 +375,6 @@ img {
     max-width: 264px;
     
 }
-
 .footer-social-text {
     font-weight: 500;
     font-size: 16px;
@@ -405,21 +385,18 @@ img {
     text-align: center;
 
 }
-
 .footer-social-list {
     display: flex;
     justify-content: center;
     gap: 16px;
 
 }
-
 .footer-social-list-point {
     width: 40px;
     height: 40px;
 
 
 }
-
 .footer-social-list-link {
     width: 100%;
     height: 100%;
@@ -430,24 +407,19 @@ img {
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .footer-social-list-link:hover {
     background-color: #31d0aa;
 }
-
 .footer-social-list-link:focus {
     background-color: #31d0aa;
 }
-
 .footer-svg-icon {
     fill: #f4f4fd
 }
-
 .footer-container {
     display: flex;
     flex-direction: column;
 }
-
 .footer-logo-box {
     font-size: 16px;
     font-weight: 400;
@@ -457,7 +429,6 @@ img {
     height: 110px;
     margin-bottom: 72px;
 }
-
 .footer-text-form {
     margin-bottom: 16px;
     font-weight: 500;
@@ -467,17 +438,14 @@ img {
     color: #FFFFFF;
     text-align: center;
 }
-
 .footer-form {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
-
 .footer-label-form {
     gap: 24px;
 }
-
 .footer-form-email {
     width: 288px;
     height: 40px;
@@ -491,13 +459,10 @@ img {
     border-radius: 4px;
     color: #ffffff;
 }
-
-
 input::placeholder {
     color: color #ffffff;
     ;
 }
-
 .footer-form-btn {
     width: 165px;
     height: 40px;
@@ -517,7 +482,6 @@ input::placeholder {
     margin-left: 77px;
     margin-right: 77px;
 }
-
 .footer-form-icon {
     margin-left: 16px;
 
@@ -582,7 +546,6 @@ input::placeholder {
         flex-direction: column;
         gap: 24px;
 }
-
 .mobile-menu-mail{
     font-size: 20px;
     font-weight: 500;
@@ -601,7 +564,6 @@ input::placeholder {
 .mobile-menu-mail:hover {
     color: #404bbf;
 }
-
 .mobile-menu-mail:focus {
     color: #404bbf;
 }
@@ -623,7 +585,6 @@ input::placeholder {
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .model-window {
     position: absolute;
     top: 50%;
@@ -637,7 +598,6 @@ input::placeholder {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 24px 24px 24px;
 }
-
 .btn-model-window {
     position: absolute;
     top: 24px;
@@ -654,18 +614,15 @@ input::placeholder {
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .btn-model-window:hover,
 .btn-model-window:focus {
     background-color: #404bbf;
     border: none;
     fill: #ffffff
 }
-
 .model-window-icon-close {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .model-window-text {
     font-weight: 500;
     font-size: 16px;
@@ -676,11 +633,9 @@ input::placeholder {
     --font-color: #2E2F42;
     color: var(--font-color);
 }
-
 .form-container {
     margin-bottom: 8px;
 }
-
 .form-label-name {
     font-size: 12px;
     line-height: 1.17;
@@ -690,11 +645,9 @@ input::placeholder {
     display: block;
     margin-bottom: 4px;
 }
-
 .input-container {
     position: relative;
 }
-
 .input-user-name {
     width: 100%;
     height: 40px;
@@ -706,15 +659,12 @@ input::placeholder {
     transition: border-color 250ms cubic-bezier(0.4,
             0, 0.2, 1);
 }
-
 .input-user-name:focus+.person-svg {
     fill: #4d5ae5;
 }
-
 .input-user-name:focus {
     border-color: #4D5AE5;
 }
-
 .person-svg {
     position: absolute;
     left: 16px;
@@ -722,12 +672,10 @@ input::placeholder {
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .form-coment {
     margin-bottom: 16px;
 
 }
-
 .comment-window {
     width: 100%;
     height: 120px;
@@ -744,15 +692,12 @@ input::placeholder {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: block
 }
-
 .comment-window:focus {
     border-color: #4D5AE5;
 }
-
 .checkbox-container {
     margin-bottom: 24px;
 }
-
 .checkbox-label {
     font-size: 12px;
     line-height: 1.17;
@@ -760,7 +705,6 @@ input::placeholder {
     --color: #8e8f99;
     color: var(--color);
 }
-
 .checkbox-label-span {
     width: 16px;
     height: 16px;
@@ -773,18 +717,15 @@ input::placeholder {
     fill: transparent;
 
 }
-
 .checkbox-input:checked+.checkbox-label>.checkbox-label-span {
     background-color: #404bbf;
     fill: #F4F4FD;
     border: none;
 }
-
 .link-privacy-policy {
     color: #4d5ae5;
     text-decoration: underline;
 }
-
 .form-btn {
     display: block;
     min-width: 169px;
@@ -805,7 +746,10 @@ input::placeholder {
 }
 }
 
+
 /* ------------mobile style  -----------*/
+
+
 
 /* ------------tablet style  -----------*/
 @media screen and (min-width:768px) and (max-width:1157px) {
@@ -834,11 +778,10 @@ input::placeholder {
     }
      .mobile-menu-open-svg{
         display: none;
-     }
+    }
      .mobile-menu-container{
         display: none;
-     }
-
+    }
     .container-header {
         width: 768px;
         height: 72px;
@@ -846,19 +789,16 @@ input::placeholder {
         align-items: center;
        
     }
-
     .navigation {
         display: flex;
         align-items: center;
         margin-right: 121px;
 
     }
-
     .menu {
         display: flex;
         gap: 40px;
     }
-
     .visually-hidden {
         position: absolute;
         width: 1px;
@@ -871,7 +811,6 @@ input::placeholder {
         clip: rect(0 0 0 0);
         overflow: hidden;
     }
-
     .logo {
         font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -882,11 +821,9 @@ input::placeholder {
         color: #4d5ae5;
         margin-right: 120px
     }
-
     .logo-studio {
         color: #2e2f42;
     }
-
     .link-studio {
         font-weight: 500;
         line-height: 1.5;
@@ -901,11 +838,9 @@ input::placeholder {
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     }
-
     .current {
         color: #404bbf;
     }
-
     .current::after {
         content: "";
         width: 100%;
@@ -917,27 +852,22 @@ input::placeholder {
         border-radius: 2px;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-
     .link-studio:hover {
         color: #404bbf;
     }
-
     .link-studio:focus {
         color: #404bbf;
     }
-
     .mail-tel {
         font-style: normal;
         display: flex;
         flex-direction: column;
     }
-
     .address-title {
         display: flex;
         flex-direction: column;
         gap: 12px;
     }
-
     .mail {
         font-size: 12px;
         line-height: 1.16;
@@ -948,15 +878,15 @@ input::placeholder {
         padding-left: 0;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-
     .mail:hover {
         color: #404bbf;
     }
-
     .mail:focus {
         color: #404bbf;
     }
+
 /* ================== SECTION 1================ */
+
     .section-business {
         background-color: #2e2f42;
         padding: 112px 0;
@@ -968,7 +898,6 @@ input::placeholder {
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         margin: auto;
     }
-
     .text-business {
         font-size: 56px;
         line-height: 1.07;
@@ -980,7 +909,6 @@ input::placeholder {
         margin-right: auto;
         margin-bottom: 36px;
     }
-
     .button {
         background-color: #4D5AE5;
         font-family: "Roboto", sans-serif;
@@ -1002,19 +930,18 @@ input::placeholder {
 
 
     }
-
     .button:hover {
         background-color: #404BBF;
     }
-
     .button:focus {
         background-color: #404BBF;
     }
-
     .button {
         cursor: pointer;
     }
+
 /* =================  SECTION 2  ================= */
+
     .section-advantages {
         padding: 96px 0;
         
@@ -1022,7 +949,6 @@ input::placeholder {
     .svg-icon{
         display: none;
     }
-
     .title-advantages {
         font-weight: 500;
         font-size: 36px;
@@ -1032,18 +958,15 @@ input::placeholder {
 
         margin-bottom: 8px;
     }
-
     .div-icon {
         display: none;
     
     }
-
     .text-advantages {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
     }
-
     .list-advantages {
         
         display: flex;
@@ -1053,7 +976,6 @@ input::placeholder {
         margin: 0;
         padding-left: 0;
     }
-
     .point-list-advantages {
         width: 356px; 
         height: 120px;
@@ -1065,7 +987,6 @@ input::placeholder {
         background-color: #F4F4FD;
         padding: 96px 0;
     }
-
     .title-our-team {
         font-size: 36px;
         line-height: 1.11;
@@ -1075,7 +996,6 @@ input::placeholder {
         color: #2e2f42;
         margin-bottom: 72px;
     }
-
     .list-our-team {
         display: flex;
         flex-wrap: wrap;
@@ -1084,7 +1004,6 @@ input::placeholder {
         margin: 0;
         padding-left: 0;
     }
-
     .list-mark {
         background-color: #FFFFFF;
         
@@ -1093,23 +1012,19 @@ input::placeholder {
             0px 1px 1px rgba(46, 47, 66, 0.16),
             0px 2px 1px rgba(46, 47, 66, 0.08);
     }
-
     .name-position {
         padding: 32px 0
     }
-
     .list-social {
         display: flex;
         justify-content: center;
         gap: 24px;
     }
-
     .icon-link {
         width: 40px;
         height: 40px;
 
     }
-
     .icon-link-point {
         width: 100%;
         height: 100%;
@@ -1120,19 +1035,15 @@ input::placeholder {
         justify-content: center;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-
     .icon-link-point:hover {
         background-color: #404bbf;
     }
-
     .icon-link-point:focus {
         background-color: #404bbf;
     }
-
     .svg-icon-link {
         fill: #f4f4fd;
     }
-
     .name-mark {
         font-weight: 500;
         font-size: 20px;
@@ -1142,7 +1053,6 @@ input::placeholder {
         text-align: center;
         margin-bottom: 8px
     }
-
     .text-mark {
         font-size: 16px;
         line-height: 1.5;
@@ -1159,7 +1069,6 @@ input::placeholder {
     .our-portfolio {
        padding: 96px 0;
     }
-
     .our-portfolio-title {
         color: var(--NAVY-BLUE, #2E2F42);
         text-align: center;
@@ -1172,7 +1081,6 @@ input::placeholder {
         text-transform: capitalize;
         margin-bottom: 72px;
     }
-
     .our-portfolio-list {
         display: flex;
         flex-wrap: wrap;
@@ -1182,18 +1090,15 @@ input::placeholder {
         margin: 0;
         padding-left: 0;
     }
-
     .our-portfolio-list-point {
         
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-
     .img-box {
         position: relative;
         overflow: hidden;
 
     }
-
     .text-box-img {
         position: absolute;
         top: 0;
@@ -1208,22 +1113,18 @@ input::placeholder {
         transform: translateY(100%);
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-
     .our-portfolio-list-point:hover .text-box-img {
         transform: translateY(0%);
 
     }
-
     .our-portfolio-list-point:hover {
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     }
-
     .application-name {
         padding: 32px 16px;
         border: 1px solid #e7e9fc;
         border-top: none;
     }
-
     .banking-app {
         font-weight: 500;
         font-size: 20px;
@@ -1232,7 +1133,6 @@ input::placeholder {
         color: #2e2f42;
         margin-bottom: 8px
     }
-
     .text-app {
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -1248,7 +1148,6 @@ input::placeholder {
         
         
     }
-
     .footer-logo {
         font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -1261,22 +1160,18 @@ input::placeholder {
         margin-bottom: 16px;
 
     }
-
     .span-footer-logo {
         color: #f4f4fd;
     }
-
     .social-box {
         margin-right: 80px;
     }
-
     .footer-text {
         line-height: 1.5;
         color: #F4F4FD;
         letter-spacing: 0.02em;
         width: 264px;
     }
-
     .footer-social-text {
         font-weight: 500;
         font-size: 16px;
@@ -1286,20 +1181,17 @@ input::placeholder {
         margin-bottom: 16px;
 
     }
-
     .footer-social-list {
         display: flex;
         gap: 16px;
 
     }
-
     .footer-social-list-point {
         width: 40px;
         height: 40px;
 
 
     }
-
     .footer-social-list-link {
         width: 100%;
         height: 100%;
@@ -1310,32 +1202,26 @@ input::placeholder {
         justify-content: center;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-
     .footer-social-list-link:hover {
         background-color: #31d0aa;
     }
-
     .footer-social-list-link:focus {
         background-color: #31d0aa;
     }
-
     .footer-svg-icon {
         fill: #f4f4fd
     }
-
     .footer-container {
         display: flex;
         flex-wrap: wrap;
         margin-left: 92px;
         
     }
-
     .footer-logo-box {
         margin-right: 24px;
         
         margin-bottom: 72px;
     }
-
     .footer-text-form {
         margin-bottom: 16px;
         font-weight: 500;
@@ -1344,16 +1230,13 @@ input::placeholder {
         letter-spacing: 0.02em;
         color: #FFFFFF;
     }
-
     .footer-form {
         display: flex;
         gap: 24px;
     }
-
     .footer-label-form {
         gap: 24px;
     }
-
     .footer-form-email {
         width: 264px;
         height: 40px;
@@ -1367,12 +1250,10 @@ input::placeholder {
         border-radius: 4px;
         color: #ffffff;
     }
-
     input::placeholder {
         color: color #ffffff;
         ;
     }
-
     .footer-form-btn {
         min-width: 165px;
         height: 40px;
@@ -1390,12 +1271,10 @@ input::placeholder {
         border-radius: 4px;
         border: none;
     }
-
     .footer-form-icon {
         margin-left: 16px;
 
     }
-
     .model-window-container {
         position: fixed;
         top: 0;
@@ -1405,7 +1284,6 @@ input::placeholder {
         background-color: rgba(46, 47, 66, 0.4);
         transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-
     .model-window {
         position: absolute;
         top: 50%;
@@ -1419,7 +1297,6 @@ input::placeholder {
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
         padding: 72px 24px 24px 24px;
     }
-
     .btn-model-window {
         position: absolute;
         top: 24px;
@@ -1436,18 +1313,15 @@ input::placeholder {
         cursor: pointer;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-
     .btn-model-window:hover,
     .btn-model-window:focus {
         background-color: #404bbf;
         border: none;
         fill: #ffffff
     }
-
     .model-window-icon-close {
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-
     .model-window-text {
         font-weight: 500;
         font-size: 16px;
@@ -1458,11 +1332,9 @@ input::placeholder {
         --font-color: #2E2F42;
         color: var(--font-color);
     }
-
     .form-container {
         margin-bottom: 8px;
     }
-
     .form-label-name {
         font-size: 12px;
         line-height: 1.17;
@@ -1472,11 +1344,9 @@ input::placeholder {
         display: block;
         margin-bottom: 4px;
     }
-
     .input-container {
         position: relative;
     }
-
     .input-user-name {
         width: 100%;
         height: 40px;
@@ -1488,15 +1358,12 @@ input::placeholder {
         transition: border-color 250ms cubic-bezier(0.4,
                 0, 0.2, 1);
     }
-
     .input-user-name:focus+.person-svg {
         fill: #4d5ae5;
     }
-
     .input-user-name:focus {
         border-color: #4D5AE5;
     }
-
     .person-svg {
         position: absolute;
         left: 16px;
@@ -1504,12 +1371,10 @@ input::placeholder {
         transform: translateY(-50%);
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-
     .form-coment {
         margin-bottom: 16px;
 
     }
-
     .comment-window {
         width: 100%;
         height: 120px;
@@ -1526,15 +1391,12 @@ input::placeholder {
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         display: block
     }
-
     .comment-window:focus {
         border-color: #4D5AE5;
     }
-
     .checkbox-container {
         margin-bottom: 24px;
     }
-
     .checkbox-label {
         font-size: 12px;
         line-height: 1.17;
@@ -1542,7 +1404,6 @@ input::placeholder {
         --color: #8e8f99;
         color: var(--color);
     }
-
     .checkbox-label-span {
         width: 16px;
         height: 16px;
@@ -1555,18 +1416,15 @@ input::placeholder {
         fill: transparent;
 
     }
-
     .checkbox-input:checked+.checkbox-label>.checkbox-label-span {
         background-color: #404bbf;
         fill: #F4F4FD;
         border: none;
     }
-
     .link-privacy-policy {
         color: #4d5ae5;
         text-decoration: underline;
     }
-
     .form-btn {
         display: block;
         min-width: 169px;
@@ -1588,29 +1446,25 @@ input::placeholder {
 }
 
 
-
-
-
 /* ------------tabletstyle  -----------*/
+
+
 
 /* ------------desktop style  -----------*/
 @media screen and (min-width:1158px) {
 a {
         text-decoration: none;
     }
-
     ul {
         list-style: none;
         padding-left: 0;
         margin: 0;
     }
-
     body {
         font-family: "Roboto", sans-serif;
         color: #434455;
         background-color: #FFFFFF;
     }
-
     h1,
     h2,
     h3,
@@ -1618,13 +1472,11 @@ a {
     p {
         margin: 0;
     }
-
     .main-header {
        
         border-bottom: 1px solid #e7e9fc;
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     }
-
     img {
         display: block;
     }
@@ -1633,7 +1485,10 @@ a {
     }
      .mobile-menu-open-svg{
         display: none;
-     }
+    }
+.mobile-menu-container{
+    display: none;
+    }
 
     .container-header {
         display: flex;
