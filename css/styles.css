@@ -499,7 +499,7 @@ input::placeholder {
 
 }
 .mobile-menu-container{
-    
+    overflow-y: auto;
     position: fixed;
     top: 0;
     left: 0;
@@ -2095,7 +2095,7 @@ screen and (min-resolution:2dppx) and (min-width:1158px),
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%) scale(1);
-        width: 408px;
+        width: 320px;
         min-height: 584px;
         background: #fcfcfc;
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
