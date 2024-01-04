@@ -33,22 +33,20 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.is-open{
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-}
+
 
 
 /* ------------mobile style  -----------*/
-/* =============   HEADER   ============== */
+
 
 
 
 @media screen and (max-width:767px) {
 
    
-    
+/* =============   HEADER   ============== */
+
+
    
 .container {
   max-width: 320px;
@@ -2150,4 +2148,9 @@ screen and (min-resolution:2dppx) and (min-width:1158px),
         margin-left: auto;
         margin-right: auto;
     }
+}
+.is-open{
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
